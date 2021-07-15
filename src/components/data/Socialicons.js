@@ -1,0 +1,23 @@
+export const SocialData=[
+    {
+        title:"Instagram",
+        icon:require('../../assests/icons/instagram.png').default,
+        link:'',
+    },{
+        title:"Github",
+        icon:require('../../assests/icons/facebook.png').default,
+        link:'',
+    },{
+        title:"LinkedIn",
+        icon:require('../../assests/icons/linkedin.png').default,
+        link:'',
+    },{
+        title:"Facebook",
+        icon:require('../../assests/icons/facebook.png').default,
+        link:'',
+    },{
+        title:"Twitter",
+        icon:require('../../assests/icons/twitter.png').default,
+        link:'',
+    }
+]

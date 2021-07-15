@@ -1,0 +1,59 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    flex:1;
+    align-items: center;
+    background-color: #000;
+    color:aliceblue;
+    height:80px;
+    position:relative;
+    padding:36px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.logo{
+    display: flex;
+    font-size: 36px;
+    color:aquamarine;
+    font-weight: 800;
+}
+
+.menu{ 
+    display: flex;
+    flex:1;
+    justify-content: flex-end;
+} 
+
+.menu-icon{
+    font-size: 24px;
+    color:aliceblue;
+}
+
+.header-mobile{
+    display: none;
+}
+
+.header-web{
+    display:flex;
+
+}
+
+@media only screen and (max-width:720px){
+    .header{
+        height:50px;
+    }
+    .header-mobile{
+        display: flex;
+    }
+    .header-web{
+        display:none;
+    }
+    .logo{
+        font-size:24px;
+    }
+    .menu-icon{
+        font-size:16px;
+    }
+}
+

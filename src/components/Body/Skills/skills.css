@@ -1,0 +1,32 @@
+.skill{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 24px;
+} 
+.skill-type{
+    padding-bottom:12px;
+    text-align: center;
+}
+
+.skill-icons{
+    display:flex;
+    flex-direction: row;
+    padding-top: 12px;
+    justify-content: center;
+    align-items: center;
+} 
+
+.skill-icon{
+    font-size:60px;
+    margin-right: 32px;
+}
+
+@media only screen and (max-width:720px){
+    .skill-icon{
+        font-size:42px;
+        margin-right:24px;
+    }
+}

@@ -1,0 +1,24 @@
+.web{
+    display: flex;
+    flex:1;
+    align-items: center;
+}
+
+.web-option{
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 18px;
+    margin-right: 16px;
+    font-weight: 700; 
+}
+.web-option:last-child{
+    margin-right:0;
+}
+
+.web-option a{
+    text-decoration: none;
+    color:#fff;
+    display: flex;
+    align-items: center;
+}
