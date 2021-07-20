@@ -9,23 +9,23 @@ const Mobile = ({isOpen,setIsOpen}) => {
             </div>
             <div className="mobile-options">
             <div className="mobile-option">
-                <a href="">
-                    About Me
+                <a href="#about">
+                <i class="fi-rr-user small-icon"></i>About Me
                 </a>
             </div>
             <div className="mobile-option">
-                <a href="">
-                    Skills
+                <a href="#skills">
+                <i class="fi-rr-laptop small-icon"></i> Skills
                 </a>
             </div>
             <div className="mobile-option">
-                <a href="">
-                    Projects
+                <a href="#project">
+                <i class="fi-rr-briefcase small-icon"></i> Projects
                 </a>
             </div>
             <div className="mobile-option">
-                <a href="">
-                    Contact
+                <a href="#contact">
+                <i class="fi-rr-headset small-icon"></i> Contact
                 </a>
             </div>
            </div>

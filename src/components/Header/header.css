@@ -15,8 +15,13 @@
 .logo{
     display: flex;
     font-size: 36px;
-    color:aquamarine;
+    color:aqua;
     font-weight: 800;
+    align-items: center;
+}
+
+.header-image{
+    height:50px;
 }
 
 .menu{ 
@@ -54,6 +59,9 @@
     }
     .menu-icon{
         font-size:16px;
+    }
+    .header-image{
+        height:30px;
     }
 }
 

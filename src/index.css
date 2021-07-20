@@ -4,10 +4,33 @@
     padding:0;
 } 
 
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: blue black;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 20px;
+    
+  }
+  
+  
+
 html{
     scroll-behavior: smooth;
 }
 
 body{
-    font-family: 'Work Sans', sans-serif;;
+    font-family: 'Work Sans', sans-serif;
 }

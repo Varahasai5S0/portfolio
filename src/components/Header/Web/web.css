@@ -9,7 +9,7 @@
     justify-content: center; 
     align-items: center;
     font-size: 18px;
-    margin-right: 16px;
+    margin-right: 20px;
     font-weight: 700; 
 }
 .web-option:last-child{
@@ -20,5 +20,11 @@
     text-decoration: none;
     color:#fff;
     display: flex;
+    align-items: center;
+}
+
+.small-icon{
+    display:flex;
+    justify-content: center;
     align-items: center;
 }

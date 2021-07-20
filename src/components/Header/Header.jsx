@@ -8,8 +8,9 @@ const Header = () => {
     return (
         <div className="header"> 
             <div className="logo">
-                AVS
-            </div>
+            <img className="header-image" src={require('../../assests/box.gif').default} style={{height:'50px'}}/>
+              Varaha Sai
+                   </div>
             <div className="menu">
                 <div className="header-web">
                     <Web/>

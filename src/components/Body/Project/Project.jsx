@@ -1,21 +1,22 @@
 import React from 'react';
 import {ProjectData} from '../../data/Project';
 import './project.css';
+import ProjectCard from './ProjectCard';
 
 const Project = () => { 
     const data = ProjectData;
     return (
         <div classname="project">
-            {
+                <label className="section-title">Project</label> 
+                <div className="project-list">
+                {
                 data.map((item)=>{
                     return(
-                        <div className="">
-                    <p>{item.name}</p>
-                    <img className="" style={{height:'50px'}} src={item.owner.avatar_url} alt='shjd'/>
-                   </div>
+                           <ProjectCard key={item.id} image={'aa'} desc={item.description} title={item.name} links={item.html_url}/>
                     )
                 })
-            }
+               }
+            </div>
         </div>
     )
 }

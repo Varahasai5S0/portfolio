@@ -4,7 +4,7 @@ import './footer.css';
 const Footer = () => {
     return (
         <div className="footer">
-            Made by ❤ AVS
+            Made by ❤ Adireddi Varaha Sai
         </div>
     )
 }

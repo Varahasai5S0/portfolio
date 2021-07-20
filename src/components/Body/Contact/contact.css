@@ -1,11 +1,17 @@
 .contact{
     display:flex;
     flex-direction: column; 
-    justify-content: center;
-    align-items: center;
+    padding-bottom:6px;
 } 
+.contact-form{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    background-color: aliceblue;
+}
 
-.contact-container{
+.contact-container{ 
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -5,23 +5,23 @@ const Web = () => {
     return (
         <div className="web">
             <div className="web-option">
-                <a href="">
-                    About Me
+                <a href="#about">
+                <i class="fi-rr-user small-icon"></i>About Me
                 </a>
             </div>
             <div className="web-option">
-                <a href="">
-                    Skills
+                <a href="#skills">
+                <i class="fi-rr-laptop small-icon"></i>Skills
                 </a>
             </div>
             <div className="web-option">
-                <a href="">
-                    My Work
+                <a href="#project">
+                <i class="fi-rr-briefcase small-icon"></i> Projects
                 </a>
             </div>
             <div className="web-option">
-                <a href="">
-                    Contact
+                <a href="#contact">
+                <i class="fi-rr-headset small-icon"></i> Contact
                 </a>
             </div>
         </div>

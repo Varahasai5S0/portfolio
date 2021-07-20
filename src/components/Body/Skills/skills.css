@@ -2,8 +2,6 @@
     display: flex;
     flex:1;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding-bottom: 24px;
 } 
 .skill-type{
@@ -11,12 +9,41 @@
     text-align: center;
 }
 
+.skill-div{
+    background-color:lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:75%;
+    margin:auto;
+} 
+
+.skill-div-info-left{
+    width:0;
+    height:0;
+  border-top:30px solid transparent;
+border-left:60px solid white;
+  border-bottom: 30px solid transparent;
+}
+.skill-div-info-right{
+    width:0;
+    height:0;
+  border-top:30px solid transparent;
+border-right:60px solid white;
+  border-bottom: 30px solid transparent;
+
+}
+.skill-info{
+   font-size:18px;
+   font-weight:500;
+}
 .skill-icons{
     display:flex;
     flex-direction: row;
-    padding-top: 12px;
+    padding-top: 24px;
     justify-content: center;
     align-items: center;
+       
 } 
 
 .skill-icon{
@@ -29,4 +56,26 @@
         font-size:42px;
         margin-right:24px;
     }
+}
+
+@media only screen and (max-width:720px){
+  .skill-div{
+    width:90%;
+    margin:auto;
+  }
+  .skill-div-info-left{
+    width:0;
+    height:0;
+  border-top:20px solid transparent;
+border-left:40px solid white;
+  border-bottom: 20px solid transparent;
+}
+.skill-div-info-right{
+    width:0;
+    height:0;
+  border-top:20px solid transparent;
+border-right:40px solid white;
+  border-bottom: 20px solid transparent;
+
+ }
 }

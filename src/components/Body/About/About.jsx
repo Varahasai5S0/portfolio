@@ -7,7 +7,7 @@ const About = () => {
             <div className="about-info">
                 Hello Folks✌ . <br/>
                 I am <span className="info-name">Varaha Sai</span> <br/>
-                    I Love to Code  ||   I develop
+                    I Love to Code  <br/>   I develop
             </div>
             <div className="about-image">
             <img className="picture" src={require('../../../assests/Programmer.gif').default}/>
