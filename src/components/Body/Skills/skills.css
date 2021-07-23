@@ -10,7 +10,7 @@
 }
 
 .skill-div{
-    background-color:lightblue;
+    background-color:#66ccff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,14 +22,14 @@
     width:0;
     height:0;
   border-top:30px solid transparent;
-border-left:60px solid white;
+border-left:40px solid white;
   border-bottom: 30px solid transparent;
 }
 .skill-div-info-right{
     width:0;
     height:0;
   border-top:30px solid transparent;
-border-right:60px solid white;
+border-right:40px solid white;
   border-bottom: 30px solid transparent;
 
 }

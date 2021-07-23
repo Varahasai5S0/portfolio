@@ -6,8 +6,9 @@ const About = () => {
         <div className="about"> 
             <div className="about-info">
                 Hello Folks✌ . <br/>
-                I am <span className="info-name">Varaha Sai</span> <br/>
-                    I Love to Code  <br/>   I develop
+                I am <span className="info-name">Varaha Sai</span> <br/><br/>
+                    I write ...  <br/>   I develop .... <br/> MERN STACK DEVELOPER<br/>
+                    Codechef Campus Representative
             </div>
             <div className="about-image">
             <img className="picture" src={require('../../../assests/Programmer.gif').default}/>

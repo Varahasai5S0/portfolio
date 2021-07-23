@@ -4,14 +4,6 @@
     padding-bottom:36px;
 } 
 
-.project-list{
-    display:flex;
-    flex-direction: row;
-    align-items: center; 
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
 .project-icon{
     width:45%;
     min-height:100px;

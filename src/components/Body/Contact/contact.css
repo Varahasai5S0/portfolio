@@ -3,12 +3,25 @@
     flex-direction: column; 
     padding-bottom:6px;
 } 
+
+.contact-page{ 
+    width:60%;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.contact-right{
+    display: flex;
+    justify-content: right;
+}
 .contact-form{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content:space-around;
     align-items: center;
-    background-color: aliceblue;
 }
 
 .contact-container{ 
