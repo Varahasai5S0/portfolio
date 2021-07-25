@@ -23,7 +23,7 @@ const Skills = () => {
                                     item.list.map((items)=>{
                                         return(
                                             <div className="skill-icon">
-                                            {items.icon}
+                                            {items.icon} 
                                             </div> 
                                         )
                                     })

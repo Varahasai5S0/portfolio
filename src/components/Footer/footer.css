@@ -9,4 +9,11 @@
     border-top-left-radius:24px ;
     border-top-right-radius:24px ;
     padding:12px;
+    color:#000;
+}
+
+@media only screen and (max-width:720px){
+    .footer{
+        font-size:12px;
+    }
 }

@@ -1,11 +1,11 @@
 import React from 'react';
-import {ProjectData} from '../../data/Project';
+import {GithubData} from '../../data/Github';
 import './project.css';
 import ProjectCard from './ProjectCard';
 import {Grid} from '@material-ui/core'
 
 const Project = () => { 
-    const data = ProjectData;
+    const data = GithubData;
     return (
         <div classname="project">
                 <label className="section-title">Project</label> 
@@ -20,7 +20,7 @@ const Project = () => {
                 {
                 data.map((item)=>{
                     return(
-                           <ProjectCard key={item.id} image={'aa'} desc={item.description} title={item.name} links={item.html_url}/>
+                           <ProjectCard item={item} key={item.id}/>
                     )
                 })
                }
