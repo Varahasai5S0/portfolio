@@ -4,19 +4,16 @@ export const SkillData = [
         list:[
             {
                 name:'HTML5', 
-                icon:<i class="devicon-html5-plain-wordmark colored"></i>
+                icon:<img src={require('../../assests/html.png').default} />
             },{
                 name:'CSS3',
-                icon:<i class="devicon-css3-plain-wordmark colored"></i>
-            },{
-                name:'Bootstrap',
-                icon:<i class="devicon-bootstrap-plain-wordmark colored"></i>
+                icon:<img src={require('../../assests/css.png').default} />
             },{
                 name:'ReactJS',
-                icon:<i class="devicon-react-original colored"></i>
+                icon:<img src={require('../../assests/react.png').default} />
             },{
                 name:'MaterialUi',
-                icon:<i class="devicon-materialui-plain colored"></i>
+                icon:<img src={require('../../assests/ui.png').default} />
             }
         ]
     },
@@ -25,11 +22,11 @@ export const SkillData = [
         list:[
             {
                 name:'NodeJS',
-                icon:<i class="devicon-nodejs-plain colored"></i>
+                icon: <i class="devicon-nodejs-plain-wordmark colored"></i>
             },
             {
                 name:'ExpressJS',
-                icon:<i class="devicon-express-original colored"></i>
+                icon:<i class="devicon-express-original"></i>
             },
             {
                 name:'MongoDB',
@@ -46,19 +43,19 @@ export const SkillData = [
         list:[
             {
                 name:"C",
-                icon:<i class="devicon-c-line colored"></i>,
+                icon:<img className="skill-image" src={require('../../assests/c.png').default} />
             },
             {
                 name:"C++",
-                icon:<i class="devicon-cplusplus-line colored"></i>,
+                icon:<img className="skill-image" src={require('../../assests/c++.png').default} />
             },
             {
                 name:"Python",
-                icon:<i class="devicon-python-plain-wordmark colored"></i>,
+                icon:<img className="skill-image" src={require('../../assests/python.png').default} />,
             },
             {
                 name:"Javascript",
-                icon:<i class="devicon-javascript-plain colored"></i>,
+                icon:<img className="skill-image" src={require('../../assests/javascript.png').default} />
             }
         ]
     }

@@ -14,33 +14,35 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width:75%;
+    width:65%;
     margin:auto;
+    color:#000;
 } 
 
 .skill-div-info-left{
     width:0;
     height:0;
-  border-top:30px solid transparent;
+  border-top:25px solid transparent;
 border-left:40px solid #000;
-  border-bottom: 30px solid transparent;
+  border-bottom: 25px solid transparent;
 }
 .skill-div-info-right{
     width:0;
     height:0;
-  border-top:30px solid transparent;
+  border-top:25px solid transparent;
 border-right:40px solid #000;
-  border-bottom: 30px solid transparent;
+  border-bottom: 25px solid transparent;
 
 }
 .skill-info{
    font-size:18px;
-   font-weight:500;
+   font-weight:600;
 }
 .skill-icons{
     display:flex;
     flex-direction: row;
-    padding-top: 24px;
+    padding-top: 12px;
+    padding-bottom:24px;
     justify-content: center;
     align-items: center;
        
@@ -53,7 +55,7 @@ border-right:40px solid #000;
 
 @media only screen and (max-width:720px){
   .skill-icon{
-    font-size:32px;
+    font-size:50px;
     margin-right:16px;
 }
   .skill-div{
