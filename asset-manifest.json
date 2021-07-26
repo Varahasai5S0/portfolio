@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5534f922.chunk.css",
-    "main.js": "/portfolio/static/js/main.059b62b5.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.059b62b5.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.a4e7634e.chunk.css",
+    "main.js": "/portfolio/static/js/main.c4427a69.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c4427a69.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.035c19f6.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.035c19f6.js.map",
     "static/css/2.4be38407.chunk.css": "/portfolio/static/css/2.4be38407.chunk.css",
@@ -10,21 +10,22 @@
     "static/js/2.b3624f70.chunk.js.map": "/portfolio/static/js/2.b3624f70.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.4be38407.chunk.css.map": "/portfolio/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.5534f922.chunk.css.map": "/portfolio/static/css/main.5534f922.chunk.css.map",
+    "static/css/main.a4e7634e.chunk.css.map": "/portfolio/static/css/main.a4e7634e.chunk.css.map",
     "static/js/2.b3624f70.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b3624f70.chunk.js.LICENSE.txt",
     "static/media/Programmer.gif": "/portfolio/static/media/Programmer.783a04fc.gif",
     "static/media/box.gif": "/portfolio/static/media/box.a92c9255.gif",
-    "static/media/github.png": "/portfolio/static/media/github.9c4c0d92.png",
-    "static/media/instagram.png": "/portfolio/static/media/instagram.abaad536.png",
-    "static/media/linkedin.png": "/portfolio/static/media/linkedin.20653219.png",
+    "static/media/face.gif": "/portfolio/static/media/face.fe2b610c.gif",
+    "static/media/git.gif": "/portfolio/static/media/git.d1e8fd4f.gif",
+    "static/media/in.gif": "/portfolio/static/media/in.a40e5523.gif",
+    "static/media/insta.gif": "/portfolio/static/media/insta.a4660c12.gif",
     "static/media/mail.gif": "/portfolio/static/media/mail.8fd04781.gif",
-    "static/media/twitter.png": "/portfolio/static/media/twitter.c5f183c0.png"
+    "static/media/twit.gif": "/portfolio/static/media/twit.18cf0682.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.035c19f6.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.b3624f70.chunk.js",
-    "static/css/main.5534f922.chunk.css",
-    "static/js/main.059b62b5.chunk.js"
+    "static/css/main.a4e7634e.chunk.css",
+    "static/js/main.c4427a69.chunk.js"
   ]
 }
